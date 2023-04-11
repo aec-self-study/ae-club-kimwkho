@@ -1,0 +1,10 @@
+
+
+============================== 2023-04-11 12:13:06.393849 | 7a8173b0-7be6-4bc2-b402-8a3256b14125 ==============================
+[0m12:13:06.393849 [info ] [MainThread]: Running with dbt=1.4.5
+[0m12:13:06.395697 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/vscode/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m12:13:06.396028 [debug] [MainThread]: Tracking: tracking
+[0m12:13:06.397794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a60fa7f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a60fff1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a60fff310>]}
+[0m12:13:14.978488 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m12:13:19.095135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a60fa7f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a60fff9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a60fff130>]}
+[0m12:13:19.095955 [debug] [MainThread]: Flushing usage events
