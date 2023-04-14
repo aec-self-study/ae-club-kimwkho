@@ -1,0 +1,20 @@
+# version: 2
+
+# sources: 
+# - name: coffee_shop
+#   database: analytics-engineers-club
+#   tables: 
+#     - name: orders
+#     - name: customers
+
+# models: 
+#   - name: customers
+#     description: Cleaned up data for our customers
+#     columns: 
+#       - name: customer_id
+#         description: Primary key of the model
+#         tests: 
+#           - unique
+#           - not_null
+
+          
