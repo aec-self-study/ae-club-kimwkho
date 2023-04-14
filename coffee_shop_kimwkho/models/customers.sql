@@ -9,8 +9,9 @@ with customer_orders as (
         customer_id
         , count(*) as n_orders
         , min(created_at) as first_order_at
-    from {{ source('coffee_shop_kimwkho', 'orders') }} as orders 
-    group by 1
+
+    from `analytics-engineers-club.coffee_shop.orders`
+        group by 1
 )
 
 select 
@@ -19,6 +20,6 @@ select
     , customers.email
     , coalesce(customer_orders.n_orders, 0) as n_orders
     , customer_orders.first_order_at
-from {{ source ( 'coffee_shop_kimwkho', 'customers')}} as customers 
+from `analytics-engineers-club.coffee_shop.customers` as customers
 left join customer_orders
     on customer_id = customer_orders.customer_id
